@@ -13,6 +13,8 @@
 		E1410CE228825BD50071CD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1410CE028825BD50071CD19 /* Main.storyboard */; };
 		E1410CE428825BD60071CD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1410CE328825BD60071CD19 /* Assets.xcassets */; };
 		E1410CE728825BD60071CD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1410CE528825BD60071CD19 /* LaunchScreen.storyboard */; };
+		E1410CEF28825D400071CD19 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E1410CEE28825D400071CD19 /* MobileNetV2.mlmodel */; };
+		E1410CF128825D7F0071CD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1410CF028825D7F0071CD19 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E1410CE328825BD60071CD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1410CE628825BD60071CD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1410CE828825BD60071CD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1410CEE28825D400071CD19 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		E1410CF028825D7F0071CD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Udemy_Apps/AdvancedProperties/Thats a Hotdog?/Thats a Hotdog?/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E1410CE328825BD60071CD19 /* Assets.xcassets */,
 				E1410CE528825BD60071CD19 /* LaunchScreen.storyboard */,
 				E1410CE828825BD60071CD19 /* Info.plist */,
+				E1410CEE28825D400071CD19 /* MobileNetV2.mlmodel */,
+				E1410CF028825D7F0071CD19 /* Assets.xcassets */,
 			);
 			path = Seefood;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				E1410CE728825BD60071CD19 /* LaunchScreen.storyboard in Resources */,
 				E1410CE428825BD60071CD19 /* Assets.xcassets in Resources */,
+				E1410CF128825D7F0071CD19 /* Assets.xcassets in Resources */,
 				E1410CE228825BD50071CD19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				E1410CDF28825BD50071CD19 /* ViewController.swift in Sources */,
 				E1410CDB28825BD50071CD19 /* AppDelegate.swift in Sources */,
+				E1410CEF28825D400071CD19 /* MobileNetV2.mlmodel in Sources */,
 				E1410CDD28825BD50071CD19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
